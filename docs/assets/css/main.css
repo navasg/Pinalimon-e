@@ -827,7 +827,13 @@ button:focus {
   font-weight: 600;
   font-size: 1.3rem;
   padding-right: 1.2rem !important;
+  transition: .3s;
   padding-left: 1.2rem !important;
+}
+
+.nav-link:hover {
+  color: #e89698;
+  transition: .3s;
 }
 
 @media (min-width: 0px) and (max-width: 767px) {
@@ -852,10 +858,6 @@ button:focus {
   .nav-link.fixed-color {
     color: #fff;
   }
-}
-
-.nav-link:hover {
-  color: #056cb6;
 }
 
 @media (min-width: 0px) and (max-width: 767px) {
